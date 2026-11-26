@@ -2,7 +2,7 @@
 
 An opt-in, event-driven n8n automation that turns every published client blog post into a ready-to-post social media package. An AI agent writes platform-specific copy, an image API produces correctly sized images, and the client receives everything in one email within minutes of publishing.
 
-## Why It Is Hard
+## Why It's Hard
 
 Each social platform has its own text limits and image shapes, and a post that ignores them gets cropped or truncated. Publishing directly through platform APIs would have avoided the manual step, but it requires every client to create developer accounts and apps, and those APIs change and break. The goal was to remove nearly all the work for a non-technical client without taking on that support burden.
 

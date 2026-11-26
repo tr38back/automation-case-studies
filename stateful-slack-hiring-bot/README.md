@@ -2,7 +2,7 @@
 
 A conversational agent in Slack that interviews hiring managers about an open role, validates every answer in code, generates the hiring documents, and routes the package through approval. It cut job posting turnaround from days to under an hour for 20+ hiring managers.
 
-## Why It Is Hard
+## Why It's Hard
 
 A chatbot that collects structured data from people over several sessions has two failure modes. It forgets what it already asked, and it lets the model decide what counts as a valid answer. This system avoids both by keeping state and validation outside the model, so the LLM only handles the conversation.
 

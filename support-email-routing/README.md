@@ -2,7 +2,7 @@
 
 A layered n8n system that watches customer success inboxes, detects first-contact support requests, and hands them to the support team as Salesforce tickets. Deterministic rules make most decisions before any AI is involved, and an AI agent evaluates the rest, returning a decision, a written justification, and a confidence score for every email.
 
-## Why It Is Hard
+## Why It's Hard
 
 Customer success managers received support requests mixed in with vendor mail, newsletters, and ongoing conversations. Routing everything with an AI call would have been expensive and risky, since every webhook hit counts as an n8n execution and every model call costs tokens. A handoff to support on a client who was already mid-conversation with their manager would also have felt cold and automated. The design question was how to spend AI only where it earned its cost.
 

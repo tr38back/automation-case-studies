@@ -1,10 +1,11 @@
-# Semantic URL Migration Pipeline
+# Semantic URL Matching for Site Migration Pipeline
 
 An n8n pipeline that maps every URL on a customer's old website to the right page on their new one, producing a redirect file ready for bulk import. It combines crawling, embeddings, similarity search, and an AI agent, all bounded by hard rules that keep the output safe to ship.
 
 ## Why It's Hard
 
 When a site is rebuilt, its old URLs have to point somewhere sensible, or the search rankings and traffic they earned are lost. Doing this by hand across thousands of pages is slow and error-prone. Uninformed automation is worse, because a confident wrong match, like sending an informational article to a sales page, can cost rankings and even get pages de-indexed. The same structured matching and intent understanding is the foundation of search visibility in AI answer engines too.
+Additionally, competing priorities across teams created friction & race conditions. Launch Team wanted speed, and the Migrations Team wanted accuracy. Those aren't mutually exclusive goals, but team processes were nuanced and undocumented at the start.
 
 ## Architecture
 
